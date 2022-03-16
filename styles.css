@@ -89,3 +89,19 @@ body{
     font-weight: 550;
     border-style: none;
 }
+
+/*Flex settings for footer*/
+
+.footer{
+    margin-top: auto;
+    background-color: #1f2937;
+    color: white;
+    font-weight: 200;
+    font-size: small;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
