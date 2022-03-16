@@ -6,6 +6,8 @@ body{
     margin: 0px;
 }
 
+/*Flex settings for page header*/
+
 .header{
     background-color: #1f2937;
     color: white;
@@ -40,4 +42,50 @@ body{
 
 .header-nav a{
     padding: 0px 5px;
+}
+
+/*Flex settings for the about section under head*/
+
+.top-about{
+    color: white;
+    background-color: #1f2937;
+    padding: 100px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-object{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.med-obj-txt{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex: 1;
+}
+
+.media-image{
+    background-color: #9b9b9b;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.top-about button{
+    padding: 8px 30px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 550;
+    border-style: none;
 }
