@@ -33,15 +33,11 @@ body{
     
 }
 
-.header-nav{
+.header-nav nav{
     font-size: small;
-    margin-right: 20px;
     display: flex;
     flex-shrink: 0;
-}
-
-.header-nav a{
-    padding: 0px 5px;
+    gap: 10px;
 }
 
 /*Flex settings for the about section under head*/
