@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     padding: 0px;
     margin: 0px;
+    text-align: center;
 }
 
 /*Flex settings for page header*/
@@ -60,6 +61,7 @@ body{
 }
 
 .med-obj-txt{
+    text-align: left;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
