@@ -7,7 +7,7 @@ body{
     text-align: center;
 }
 
-/*Flex settings for page header*/
+/*CSS and Flex settings for page header*/
 
 .header{
     background-color: #1f2937;
@@ -41,7 +41,7 @@ body{
     gap: 10px;
 }
 
-/*Flex settings for the about section under head*/
+/*CSS and Flex settings for the about section under head*/
 
 .top-about{
     color: white;
@@ -88,7 +88,7 @@ body{
     border-style: none;
 }
 
-/*Flex settings for footer*/
+/*CSS and Flex settings for footer*/
 
 .footer{
     margin-top: auto;
@@ -102,4 +102,34 @@ body{
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+/*CSS and Flex settings for tile*/
+
+.tiles-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-sec-container{
+    margin: 0px 300px;
+    display: flex;
+    gap: 25px;
+    display: flex;
+}
+
+.tile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882f6;
 }
